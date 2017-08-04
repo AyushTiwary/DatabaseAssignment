@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="databaseassignment_2.12"
+		revision="1.0"
+		conf="runtime-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170803150921"/>
+	<dependencies>
+		<module organisation="org.xerial" name="sqlite-jdbc">
+			<revision name="3.19.3" status="release" pubdate="20170623131712" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="3">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3279" time="0" location="/home/knoldus/.ivy2/cache/org.xerial/sqlite-jdbc/ivy-3.19.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.19.3/sqlite-jdbc-3.19.3.pom"/>
+				<caller organisation="default" name="databaseassignment_2.12" conf="compile, runtime-internal, runtime, optional" rev="3.19.3" rev-constraint-default="3.19.3" rev-constraint-dynamic="3.19.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="sqlite-jdbc" type="jar" ext="jar" status="no" details="" size="6213670" time="0" location="/home/knoldus/.ivy2/cache/org.xerial/sqlite-jdbc/jars/sqlite-jdbc-3.19.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.19.3/sqlite-jdbc-3.19.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="postgresql" name="postgresql">
+			<revision name="9.1-901-1.jdbc4" status="release" pubdate="20111219052532" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://jdbc.postgresql.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="2">
+				<license name="BSD License" url="http://jdbc.postgresql.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2477" time="0" location="/home/knoldus/.ivy2/cache/postgresql/postgresql/ivy-9.1-901-1.jdbc4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.pom"/>
+				<caller organisation="default" name="databaseassignment_2.12" conf="compile, runtime-internal, runtime, optional" rev="9.1-901-1.jdbc4" rev-constraint-default="9.1-901-1.jdbc4" rev-constraint-dynamic="9.1-901-1.jdbc4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="postgresql" type="jar" ext="jar" status="no" details="" size="551290" time="0" location="/home/knoldus/.ivy2/cache/postgresql/postgresql/jars/postgresql-9.1-901-1.jdbc4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/postgresql/postgresql/9.1-901-1.jdbc4/postgresql-9.1-901-1.jdbc4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="mysql" name="mysql-connector-java">
+			<revision name="6.0.6" status="release" pubdate="20170223071457" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://dev.mysql.com/doc/connector-j/en/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="The GNU General Public License, Version 2" url="http://www.gnu.org/licenses/old-licenses/gpl-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2537" time="0" location="/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/ivy-6.0.6.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.pom"/>
+				<caller organisation="default" name="databaseassignment_2.12" conf="compile, runtime-internal, runtime, optional" rev="6.0.6" rev-constraint-default="6.0.6" rev-constraint-dynamic="6.0.6" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="mysql-connector-java" type="jar" ext="jar" status="no" details="" size="2001778" time="0" location="/home/knoldus/.ivy2/cache/mysql/mysql-connector-java/jars/mysql-connector-java-6.0.6.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/mysql/mysql-connector-java/6.0.6/mysql-connector-java-6.0.6.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.3" status="release" pubdate="20170725161730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.3/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2653" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.3.xml" searched="false" origin-is-local="false" origin-location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.pom"/>
+				<caller organisation="default" name="databaseassignment_2.12" conf="compile, runtime-internal, runtime, optional" rev="2.12.3" rev-constraint-default="2.12.3" rev-constraint-dynamic="2.12.3" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5246851" time="0" location="/home/knoldus/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.3.jar">
+						<origin-location is-local="false" location="https://jcenter.bintray.com/org/scala-lang/scala-library/2.12.3/scala-library-2.12.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

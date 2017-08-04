@@ -1,0 +1,2 @@
+1,  insert into employee table, " INSERT INTO Employee ( id, name, department) VALUES (1, 'Ayush', 'CS');", 56646337
+2,  insert into employee table1, "INSERT INTO Employee ( id, name, department) VALUES (2, 'Tiwari', 'IT');", 33019510
